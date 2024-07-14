@@ -1,0 +1,7 @@
+.dashboard {
+    width: 90%; /* Adjust width for smaller screens */
+    max-width: 800px; /* Set maximum width for larger screens */
+    margin: 0 auto;
+    padding: 20px;
+  }
+  

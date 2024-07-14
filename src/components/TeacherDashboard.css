@@ -1,0 +1,8 @@
+.dashboard-nav {
+    list-style: none;
+    padding: 0;
+  }
+  .dashboard-nav-item {
+    display: inline-block; /* For better control over spacing */
+    margin-right: 20px;
+  }

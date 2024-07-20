@@ -5,14 +5,17 @@ import StudentDashboard from './components/StudentDashboard';
 import TeacherDashboard from './components/TeacherDashboard';
 import CourseManagement from './components/CourseManagement';
 import UploadMaterials from './components/UploadMaterials';
+import DocumentsDashboard from './components/DocumentsDashboard';
 
 function App() {
+
   return (
     <Router>
       <div className="App">
         
         <Routes>
           <Route exact  path="/" Component={Login} />
+          <Route path="/dashboard" Component={DocumentsDashboard} />
           <Route path="/student-dashboard" Component={StudentDashboard} />
           <Route path="/teacher-dashboard" Component={TeacherDashboard} />
           <Route path="/create-course" Component={CourseManagement} />

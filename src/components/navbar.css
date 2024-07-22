@@ -1,0 +1,27 @@
+.navbar {
+    display: flex; /* Arrange elements horizontally */
+    justify-content: space-between; /* Distribute space evenly */
+    align-items: center; /* Align vertically */
+    padding: 1rem 2rem;
+    background-color: #4d4c48;
+  }
+  
+  .nav-brand {
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+    margin-right: 1rem;
+  }
+  
+  .active {
+    font-weight: bold;
+    /* Add other styles for active links, e.g., color, underline */
+  }

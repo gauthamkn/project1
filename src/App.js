@@ -6,13 +6,22 @@ import TeacherDashboard from './components/TeacherDashboard';
 import CourseManagement from './components/CourseManagement';
 import UploadMaterials from './components/UploadMaterials';
 import DocumentsDashboard from './components/DocumentsDashboard';
+import Navbar from './components/navbar';
+import Navbar from './components/sidebar';
 
 function App() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleSidebar = () => {
+    setIsOpen(!isOpen);
+  };
+
 
   return (
+    
     <Router>
       <div className="App">
-        
+        <Navbar />
         <Routes>
           <Route exact  path="/" Component={Login} />
           <Route path="/dashboard" Component={DocumentsDashboard} />

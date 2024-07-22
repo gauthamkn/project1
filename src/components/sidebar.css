@@ -1,0 +1,15 @@
+.sidebar {
+    position: fixed; /* Keep sidebar in place */
+    top: 0;
+    left: 0;
+    width: 200px; /* Adjust width as needed */
+    height: 100vh; /* Full viewport height */
+    background-color: #666562fa;
+    transition: all 0.3s ease-in-out;
+    /* Hide sidebar initially (optional) */
+    transform: translateX(-100%);
+  }
+  
+  .sidebar.open {
+    transform: translateX(0); /* Show sidebar when open */
+  }
